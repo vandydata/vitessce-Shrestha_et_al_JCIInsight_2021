@@ -28,10 +28,10 @@ Working repo and Github pages build for the VITESSCE OMICS Viewer, leveraging ob
 1. Fork this repo into a new repo
 2. Name it based on `vitessce-` as prefix, ex. `vitessce-Elgamal_et_al_Diabetes_2023`
 3. Edit the following files:
-   - [ ]  `package.json` + `package-lock.json` and update `name` and `homepage` values
-   - [ ]  `src/my-view-config.js` to point to appropriate S3 bucket and object params
-   - [ ]  Actions > Enable Github Actions
-   - [ ]  Settings > Pages > Source > Change to Github Actions
-   - [ ]  Wait for build, then get Settings > Pages > URL, and copy/paste it into main page description area
+   - [x]  `package.json` + `package-lock.json` and update `name` and `homepage` values
+   - [x]  `src/my-view-config.js` to point to appropriate S3 bucket and object params
+   - [x]  Actions > Enable Github Actions
+   - [x]  Settings > Pages > Source > Change to Github Actions
+   - [x]  Wait for build, then get Settings > Pages > URL, and copy/paste it into main page description area
 4. Test
 5. Add URL to metadata loader
